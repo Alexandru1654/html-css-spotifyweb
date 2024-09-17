@@ -16,6 +16,7 @@ body {
 .sidebar {
     width: 278px;
     height: 1138px;
+    padding-top: 525px;
     background-color: rgba(220,127,93,255);
     display: inline-block;
     border: 3px dashed black;
@@ -42,6 +43,7 @@ body {
     height: 900px;
     margin: auto;
     margin-top: 150px;
+    padding-top: 86px;
     background-color: rgba(159,200,168,255);
 }
 
@@ -49,6 +51,16 @@ body {
     width: 1220px;
     height: 290px;
     margin-left: 23px;
+    padding-top: 50px;
     background-color: rgba(177,178,182,255);
+}
+
+.row {
+    width: 280px;
+    height: 195px;
+    margin-bottom: 40px;
+    margin-left: 47px;
+    background-color: rgba(255,74,117,255);
+    display: inline-block;
 }
 

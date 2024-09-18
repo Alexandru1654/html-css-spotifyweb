@@ -28,10 +28,14 @@
 
     .subject {
         color: rgba(172,172,172,255);
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     .subjects {
         color: white;
+        margin-left: 20px;
+        font-family: "Lexend", sans-serif;
     }
 
     .speciale {
@@ -107,8 +111,9 @@
     text-align: center;
 }
 
-
-
 #play {
     color: white;
+    margin-left: 20px;
+    font-family: "Lexend", sans-serif;
 }
+

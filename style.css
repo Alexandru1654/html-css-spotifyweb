@@ -16,15 +16,28 @@
         margin: auto;
     }
     
-    /*sidebar orange*/
+    /*sidebar*/
     .sidebar {
         width: 278px;
         height: 1138px;
         padding-top: 525px;
-        background-color: rgba(220,127,93,255);
+        background-color: rgba(0,0,0,255);
         display: inline-block;
         border: 3px dashed black;
     }
+
+    .subject {
+        color: rgba(172,172,172,255);
+    }
+
+    .subjects {
+        color: white;
+    }
+
+    #logo {
+        width: 150px;
+    }
+    
     /*main content*/
     .content {
         width: 1346px;
@@ -33,7 +46,8 @@
         display: inline-block;
         border: 3px dashed black;
     }
-    
+
+    /*footer section*/
     #footer {
         width: 1628px;
         height: 80px;
@@ -47,7 +61,7 @@
         width: 1243px;
         height: 900px;
         margin: auto;
-        margin-top: 150px;
+        margin-top: 100px;
         padding-top: 86px;
         background-color: rgba(159,200,168,255);
     }
@@ -73,4 +87,25 @@
     }
 
     }
+}
+
+/*upgrade botton*/
+#upgrade {
+    background-color: rgb(8, 11, 18.255);
+    color: white;
+    border: 1px solid white;
+    margin-left: 1110px;
+    padding: 13px;
+    border-radius: 120px;
+    text-align: center;
+}
+
+.boxes {
+    width: 1346px;
+    height: 75px;
+    background-color: rgba(8,11,18,255);
+}
+
+#play {
+    color: white;
 }

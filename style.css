@@ -34,8 +34,15 @@
         color: white;
     }
 
+    .speciale {
+        position: relative;
+        bottom: 500px;
+    }
+
     #logo {
         width: 150px;
+        position: relative;
+        bottom: 520px;
     }
     
     /*main content*/
@@ -100,11 +107,7 @@
     text-align: center;
 }
 
-.boxes {
-    width: 1346px;
-    height: 75px;
-    background-color: rgba(8,11,18,255);
-}
+
 
 #play {
     color: white;

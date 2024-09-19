@@ -56,7 +56,7 @@
         .content {
             width: 1346px;
             height: 1138px;
-            background-color: rgba(125, 78, 132, 255);
+            background-color: rgba(20, 24, 34, 255);
             display: inline-block;
             border: 3px dashed black;
         }
@@ -134,7 +134,6 @@
         }
 
         #row {
-
             height: 70px;
             position: relative;
             background-color: rgba(8, 11, 18, 255);
@@ -162,6 +161,26 @@
             left: 300px;
             top: 100px;
             font-family: "Lexend", sans-serif;
+        }
+
+        .image {
+            margin-left: 300px;
+            margin-top: 120px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .title {
+            color: white;
+            margin-left: 300px;
+            margin-top: 15px;
+            font-family: "Lexend", sans-serif;
+        }
+
+        .subtitle {
+            color: rgba(125,127,132,255);
+            margin-left: 350px;
+            margin-top: 10px;
         }
     }
 }

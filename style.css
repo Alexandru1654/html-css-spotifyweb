@@ -1,145 +1,152 @@
 @media screen and (max-width: 3840px) {
     body {
         * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        overflow: hidden;
-        height: 100vh;
-    }
-    
-    .container {
-        width: 1500px;
-        margin: auto;
-    }
-    
-    /*sidebar*/
-    .sidebar {
-        width: 278px;
-        height: 1138px;
-        padding-top: 525px;
-        position: relative;
-        bottom: 72px;
-        background-color: rgba(0,0,0,255);
-        display: inline-block;
-        border: 3px dashed black;
-    }
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .subject {
-        color: rgba(172,172,172,255);
-        font-size: 20px;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
+        body {
+            overflow: hidden;
+            height: 100vh;
+        }
 
-    .subjects {
-        color: white;
-        margin-left: 20px;
-        font-family: "Lexend", sans-serif;
-    }
+        .container {
+            width: 1500px;
+            margin: auto;
+        }
 
-    .speciale {
-        position: relative;
-        bottom: 500px;
-    }
+        /*sidebar*/
+        .sidebar {
+            width: 278px;
+            height: 1138px;
+            padding-top: 525px;
+            position: relative;
+            bottom: 72px;
+            background-color: rgba(0, 0, 0, 255);
+            display: inline-block;
+            border: 3px dashed black;
+        }
 
-    #logo {
-        width: 150px;
-        position: relative;
-        bottom: 520px;
-    }
-    
-    /*main content*/
-    .content {
-        width: 1346px;
-        height: 1138px;
-        background-color: rgba(125,78,132,255);
-        display: inline-block;
-        border: 3px dashed black;
-    }
+        .subject {
+            color: rgba(172, 172, 172, 255);
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
 
-    /*footer section*/
-    #footer {
-        width: 1628px;
-        height: 80px;
-        margin-left: 272px;
-        background-color: rgba(190,108,170,255);
-        border: 3px dashed black;
-    }
-    
-    /*central container*/
-    .contine {
-        width: 1243px;
-        height: 900px;
-        margin: auto;
-        margin-top: 100px;
-        padding-top: 86px;
-        background-color: rgba(159,200,168,255);
-    }
-    
-    /*central box*/
-    .box {
-        width: 1220px;
-        height: 290px;
-        margin-left: 23px;
-        padding-top: 50px;
-        background-color: rgba(177,178,182,255);
-    }
-    
+        .subjects {
+            color: white;
+            margin-left: 20px;
+            font-family: "Lexend", sans-serif;
+        }
 
-    /*central squares*/
-    .squares {
-        width: 280px;
-        height: 195px;
-        margin-bottom: 40px;
-        margin-left: 47px;
-        background-color: rgba(255,74,117,255);
-        display: inline-block;
-    }
+        .speciale {
+            position: relative;
+            bottom: 500px;
+        }
 
-/*upgrade botton*/
-#upgrade {
-    background-color: rgb(8, 11, 18.255);
-    color: white;
-    border: 1px solid white;
-    margin-left: 1110px;
-    padding: 13px;
-    border-radius: 120px;
-    text-align: center;
+        #logo {
+            width: 150px;
+            position: relative;
+            bottom: 520px;
+        }
+
+        /*main content*/
+        .content {
+            width: 1346px;
+            height: 1138px;
+            background-color: rgba(125, 78, 132, 255);
+            display: inline-block;
+            border: 3px dashed black;
+        }
+
+        /*footer section*/
+        #footer {
+            width: 1628px;
+            height: 80px;
+            margin-left: 272px;
+            background-color: rgba(190, 108, 170, 255);
+            border: 3px dashed black;
+        }
+
+        /*central container*/
+        .contine {
+            width: 1243px;
+            height: 900px;
+            margin: auto;
+            margin-top: 100px;
+            padding-top: 86px;
+            background-color: rgba(159, 200, 168, 255);
+        }
+
+        /*central box*/
+        .box {
+            width: 1220px;
+            height: 290px;
+            margin-left: 23px;
+            padding-top: 50px;
+            background-color: rgba(177, 178, 182, 255);
+        }
+
+
+        /*central squares*/
+        .squares {
+            width: 280px;
+            height: 195px;
+            margin-bottom: 40px;
+            margin-left: 47px;
+            background-color: rgba(255, 74, 117, 255);
+            display: inline-block;
+        }
+
+        /*upgrade botton*/
+        #upgrade {
+            background-color: rgb(8, 11, 18.255);
+            color: white;
+            border: 1px solid white;
+            margin-left: 1110px;
+            padding: 13px;
+            border-radius: 120px;
+            text-align: center;
+        }
+
+        #play {
+            color: white;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-family: "Lexend", sans-serif;
+        }
+
+        #install {
+            color: grey;
+            margin-top: 400px;
+            font-family: "Lexend", sans-serif;
+        }
+
+        .john {
+            font-size: 20px;
+            color: white;
+            font-family: "Lexend", sans-serif;
+        }
+
+        #row {
+
+            height: 70px;
+            position: relative;
+            background-color: rgba(8, 11, 18, 255);
+        }
+
+        #sp {
+            color: aquamarine;
+            background-color: gold;
+            font-size: 30px;
+        }
+
+        .special {
+            color: rgba(125,127,132,255);
+            display: inline-block;
+        }
+
+    }
 }
-
-#play {
-    color: white;
-    margin-left: 20px;
-    margin-top: 20px;
-    font-family: "Lexend", sans-serif;
-}
-
-#install {
-    color: grey;
-    margin-top: 400px;
-    font-family: "Lexend", sans-serif;
-}
-
-.john {
-    font-size: 20px;
-    color: white;
-    font-family: "Lexend", sans-serif;
-}
-
-#row {
-    
-    height: 70px;
-    position: relative;
-    background-color: rgba(8,11,18,255);
-}
-
-
-
-
-    }
-}
-

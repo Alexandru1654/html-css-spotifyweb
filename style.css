@@ -63,10 +63,13 @@
 
         /*footer section*/
         #footer {
-            width: 1628px;
+            width: 1350px;
             height: 80px;
-            margin-left: 272px;
-            background-color: rgba(190, 108, 170, 255);
+            margin: auto;
+            position: relative;
+            right: 75px;
+            bottom: 483px;
+            background-color: rgba(40,40,40,255);
             border: 3px dashed black;
         }
 
@@ -146,7 +149,19 @@
         .special {
             color: rgba(125,127,132,255);
             display: inline-block;
+            font-size: 17px;
+            position: relative;
+            top: 60px;
+            left: 360px;
+            margin-left: 20px;
         }
 
+        h1 {
+            color: white;
+            position: relative;
+            left: 300px;
+            top: 100px;
+            font-family: "Lexend", sans-serif;
+        }
     }
 }

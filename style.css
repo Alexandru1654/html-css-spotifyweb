@@ -12,7 +12,7 @@
     }
     
     .container {
-        width: 2000px;
+        width: 1500px;
         margin: auto;
     }
     
@@ -21,6 +21,8 @@
         width: 278px;
         height: 1138px;
         padding-top: 525px;
+        position: relative;
+        bottom: 72px;
         background-color: rgba(0,0,0,255);
         display: inline-block;
         border: 3px dashed black;
@@ -28,6 +30,7 @@
 
     .subject {
         color: rgba(172,172,172,255);
+        font-size: 20px;
         margin-top: 20px;
         margin-left: 20px;
     }
@@ -97,9 +100,6 @@
         display: inline-block;
     }
 
-    }
-}
-
 /*upgrade botton*/
 #upgrade {
     background-color: rgb(8, 11, 18.255);
@@ -114,6 +114,32 @@
 #play {
     color: white;
     margin-left: 20px;
+    margin-top: 20px;
     font-family: "Lexend", sans-serif;
+}
+
+#install {
+    color: grey;
+    margin-top: 400px;
+    font-family: "Lexend", sans-serif;
+}
+
+.john {
+    font-size: 20px;
+    color: white;
+    font-family: "Lexend", sans-serif;
+}
+
+#row {
+    
+    height: 70px;
+    position: relative;
+    background-color: rgba(8,11,18,255);
+}
+
+
+
+
+    }
 }
 
